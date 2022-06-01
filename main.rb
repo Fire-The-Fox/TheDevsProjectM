@@ -1,6 +1,6 @@
 require "discordrb"
 
-bot = Discordrb::Bot.new token: "OTgxNDcwNDA4ODc4NDgxNDE4.GgLYx8.lBQNALaBww4Z4TxRe3y9YOpHEM95G31T12aSUI", intents: [:server_messages]
+bot = Discordrb::Bot.new token: "", intents: [:server_messages]
 
 bot.message(start_with: "$submit") do |event|
   channelID = 981469946607468574
